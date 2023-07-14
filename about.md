@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+- Programmer who has an interest in operating systems, computer architecture, deep learning, math
 
 ### More Information
 
