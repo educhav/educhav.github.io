@@ -3,8 +3,8 @@ layout: post
 title: How memory management works in Rust
 ---
 
-# The Pitfalls of Dynamic Memory Management
-- Managing dynamic (heap) memory has notoriously been a difficult programming problem. 
+## The Pitfalls of Dynamic Memory Management
+Managing dynamic (heap) memory has notoriously been a difficult programming problem. 
 Programming languages over the years have taken different approaches to solving this problem. 
 In C you must explicitly allocate and free all dynamic memory yourself, 
 meanwhile in Java a garbage collector runs in the background which cleans 
@@ -19,7 +19,7 @@ task is accomplished in Rust through a third type of memory management system: o
 - Before we talk about ownership it will be useful to briefly discuss the difference
 between a stack and a heap, and why we need them.
 
-# Stack and Heap
+## Stack and Heap
 - In programs, many of the variables that we declare and assign values to, can be known 
 statically at compile time, primitive types like ints, floats, booleans. These variables we call
 automatic variables, because they are automatically cleaned up after the function returns.
